@@ -27,6 +27,18 @@ public TSMC internal K8s version: unknown / not publicly verified
 | TSMC platform engineer signal | `TSMC Computing Platform Engineer Kubernetes` | active | 公開職缺/徵才訊號 |
 | 台積電中文訊號 | `台積電 Kubernetes 版本` | active | 中文公開資料 |
 
+## Scheduled maintainers
+
+```text
+08:00 Asia/Taipei
+  k8s-info-tsmc-version-daily
+  focus: TSMC + Kubernetes version / public signal tracking
+
+08:30 Asia/Taipei
+  k8s-info-deep-research-contributor-daily
+  focus: broad/deep Kubernetes + platform engineering research contribution
+```
+
 ---
 
 ## Research backlog
