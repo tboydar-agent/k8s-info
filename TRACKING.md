@@ -1,7 +1,7 @@
 # Tracking
 
-> k8s-info 的研究 backlog 與每日追蹤狀態。  
-> 原則：公開來源優先；無來源就標「待查」，不猜測 TSMC 內部資訊。
+> k8s-info 的研究 backlog 與每日追蹤狀態。
+> 原則：公開來源優先；無來源就標「待查」，不猜測任何特定公司內部資訊。
 
 ---
 
@@ -10,8 +10,8 @@
 ```text
 repo: k8s-info
 created: 2026-05-01
-focus: Kubernetes / Platform Engineering / TSMC-scale on-prem compute
-public TSMC internal K8s version: unknown / not publicly verified
+focus: Kubernetes / Platform Engineering / large-scale on-prem compute
+public specific-company internal K8s version: not tracked / not inferred
 ```
 
 ---
@@ -23,16 +23,16 @@ public TSMC internal K8s version: unknown / not publicly verified
 | Kubernetes upstream release | https://kubernetes.io/releases/ | active | 追 minor / patch / EOL |
 | Kubernetes patch releases | https://kubernetes.io/releases/patch-releases/ | active | 追 security/bugfix patch |
 | Kubernetes GitHub releases | https://github.com/kubernetes/kubernetes/releases | active | 交叉驗證 |
-| TSMC Kubernetes public signal | `TSMC Kubernetes version` | active | 目前未確認內部版本 |
-| TSMC platform engineer signal | `TSMC Computing Platform Engineer Kubernetes` | active | 公開職缺/徵才訊號 |
-| 台積電中文訊號 | `台積電 Kubernetes 版本` | active | 中文公開資料 |
+| Large-scale Kubernetes public signal | `large-scale Kubernetes version` | active | 目前未確認內部版本 |
+| Platform engineer public signal | `large-scale Computing Platform Engineer Kubernetes` | active | 公開職缺/徵才訊號 |
+| 大型平台中文訊號 | `大型地端平台 Kubernetes 版本` | active | 中文公開資料 |
 
 ## Scheduled maintainers
 
 ```text
 08:00 Asia/Taipei
-  k8s-info-tsmc-version-daily
-  focus: TSMC + Kubernetes version / public signal tracking
+  k8s-info-platform-version-daily
+  focus: Kubernetes version / large-scale platform public signal tracking
 
 08:30 Asia/Taipei
   k8s-info-deep-research-contributor-daily
@@ -45,13 +45,13 @@ public TSMC internal K8s version: unknown / not publicly verified
 
 ### P0 — version / upgrade baseline
 
-- [ ] 建立 Kubernetes release / EOL 摘要頁
+- [x] 建立 Kubernetes release / EOL 摘要頁：見 `docs/kubernetes-release-intelligence-2025-2026.md`
 - [ ] 建立 version skew policy 中文導讀
 - [ ] 建立 on-prem Kubernetes upgrade checklist
 - [ ] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher
-- [ ] 每日追蹤 TSMC + Kubernetes / version 公開訊號
+- [ ] 每日追蹤 Kubernetes / large-scale platform public signals
 
-### P1 — TSMC-scale platform engineer map
+### P1 — large-scale platform engineer map
 
 - [x] 建立初版技術地圖：Bare Metal / OS / KVM / Container / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP
 - [ ] 補 Linux node pressure debugging playbook

@@ -1,8 +1,8 @@
-# TSMC-scale platform engineer 技術地圖
+# 大型地端平台工程師技術地圖
 
-> 狀態：初版研究地圖。  
-> 來源：使用者提供的 TSMC IT Computing Platform Engineer/Manager 徵才方向 + 公開 Kubernetes / Platform Engineering 通用知識。  
-> 注意：本文件不是 TSMC 官方文件，不描述任何未公開內部架構。
+> 狀態：初版研究地圖。
+> 來源：使用者提供的 大型地端運算平台工程師方向 + 公開 Kubernetes / Platform Engineering 通用知識。
+> 注意：本文件不是 特定公司官方文件，不描述任何未公開內部架構。
 
 ---
 

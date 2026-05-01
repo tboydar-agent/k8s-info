@@ -2,17 +2,18 @@
 
 `k8s-info` 是一個 Kubernetes / Platform Engineering 中文知識庫，聚焦「大型地端運算平台」需要的技術地圖、版本追蹤、SRE 維運模式與 AI-assisted operations。
 
-> 狀態：非官方整理。  
-> 語言：繁體中文（zh-TW）。  
-> 風格：優先使用 ASCII art / 純文字圖，避免 Mermaid 在 GitHub mobile 上過小。  
+> 狀態：非官方整理。
+> 語言：繁體中文（zh-TW）。
+> 風格：優先使用 ASCII art / 純文字圖，避免 Mermaid 在 GitHub mobile 上過小。
 > 隱私：不保存非必要個資、私訊、內部系統細節或未公開資訊。
 
 ---
 
 ## 最新更新重點
 
-- ★★★★☆ `2026-05-01` 建立 [TSMC-scale platform engineer 技術地圖](docs/tsmc-platform-engineer-map.md)：把 Container / VM / Bare Metal / OS / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP / KVM 等能力整理成可追蹤方向。
-- ★★★★☆ `2026-05-01` 建立 [Kubernetes version watch](docs/kubernetes-version-watch.md)：每日追蹤 Kubernetes upstream、CNCF/供應商支援週期與公開 TSMC/K8s 訊號；目前不宣稱已知 TSMC 內部 K8s 版本。
+- ★★★★★ `2026-05-01` 新增 [Kubernetes release intelligence（近一年）](docs/kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理 v1.33–v1.36 對全球級資料中心 SRE / platform engineering 的影響。
+- ★★★★☆ `2026-05-01` 建立 [大型地端平台工程師技術地圖](docs/large-scale-platform-engineer-map.md)：把 Container / VM / Bare Metal / OS / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP / KVM 等能力整理成可追蹤方向。
+- ★★★★☆ `2026-05-01` 建立 [Kubernetes version watch](docs/kubernetes-version-watch.md)：每日追蹤 Kubernetes upstream、CNCF/供應商支援週期與公開大型平台/K8s 訊號；不宣稱任何特定公司內部 K8s 版本。
 - ★★★☆☆ `2026-05-01` 建立 [tracking backlog](TRACKING.md)：把 version、SRE、capacity、incident、AI agent for ops 等後續研究拆成可執行項目。
 
 ---
@@ -20,7 +21,7 @@
 ## 這個 repo 要回答什麼問題？
 
 ```text
-如果要支撐台灣最大等級的地端運算平台，
+如果要支撐全球級 / 大型地端運算平台，
 Kubernetes / VM / Bare Metal / Storage / Network / Security / SRE
 到底需要懂到多深？
 
@@ -66,8 +67,9 @@ k8s-info/
 ├── TRACKING.md
 ├── docs/
 │   ├── README.md
-│   ├── tsmc-platform-engineer-map.md
-│   └── kubernetes-version-watch.md
+│   ├── large-scale-platform-engineer-map.md
+│   ├── kubernetes-version-watch.md
+│   └── kubernetes-release-intelligence-2025-2026.md
 ├── sources/
 │   └── README.md
 └── .github/
@@ -83,7 +85,10 @@ k8s-info/
   README.md
 
 20 分鐘：
-  docs/tsmc-platform-engineer-map.md
+  docs/kubernetes-release-intelligence-2025-2026.md
+
+30 分鐘：
+  docs/large-scale-platform-engineer-map.md
 
 每日追蹤：
   docs/kubernetes-version-watch.md
@@ -99,7 +104,7 @@ P0 — Kubernetes version / support window
   - upstream Kubernetes release / patch / EOL
   - managed K8s provider support matrix as comparison signal
   - on-prem upgrade pressure and skew policy
-  - public TSMC job / talk / conference / article signals
+  - public large-scale platform job / talk / conference / article signals
 
 P1 — On-prem platform engineering
   - bare metal lifecycle
@@ -125,9 +130,9 @@ P3 — AI-assisted platform ops
 
 ---
 
-## TSMC 相關處理原則
+## 公開大型平台訊號處理原則
 
-這個 repo 可以整理公開資訊與通用技術能力，但不假設或揭露任何未公開的 TSMC 內部資訊。
+這個 repo 可以整理公開資訊與通用技術能力，但不假設或揭露任何未公開的 特定公司內部資訊。
 
 ```text
 可以寫：
@@ -149,7 +154,7 @@ P3 — AI-assisted platform ops
 
 ## 參考起點
 
-本 repo 初始方向來自一則 TSMC IT Computing Platform Engineer/Manager 徵才方向描述，核心關鍵字包含：
+本 repo 初始方向來自一則 大型地端運算平台工程師方向描述，核心關鍵字包含：
 
 ```text
 Container / VM / Bare Metal / OS / K8S / Network / Storage / Compute

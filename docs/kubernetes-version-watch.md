@@ -1,8 +1,8 @@
 # Kubernetes version watch
 
-> 狀態：每日追蹤入口。  
-> 目標：追蹤 Kubernetes upstream version / support window / patch release，以及公開 TSMC + Kubernetes / platform engineering 相關訊號。  
-> 重要邊界：目前沒有公開可信來源顯示 TSMC 內部實際 Kubernetes 版本；本 repo 不猜測、不揭露未公開資訊。
+> 狀態：每日追蹤入口。
+> 目標：追蹤 Kubernetes upstream version / support window / patch release，以及大型地端平台 / platform engineering 相關公開訊號。
+> 重要邊界：不追蹤、推論或揭露任何特定公司內部 Kubernetes 版本、內部架構或非公開資訊。
 
 ---
 
@@ -44,7 +44,7 @@ upstream release cadence
             │
             ▼
 ┌──────────────────────┐
-│ Public TSMC signals   │
+│ Public large-scale platform signals   │
 │ jobs / talks / docs   │
 └──────────────────────┘
 ```
@@ -54,15 +54,15 @@ upstream release cadence
 ## 3) 每日追蹤查詢
 
 ```text
-TSMC Kubernetes version
-TSMC container platform Kubernetes
-TSMC Computing Platform Engineer Kubernetes
-台積電 Kubernetes 版本
-台積電 container platform Kubernetes
-site:careers.tsmc.com Kubernetes
-site:tsmc.com Kubernetes
-site:ithelp.ithome.com.tw TSMC Kubernetes
-site:kubernetessummit.ithome.com.tw TSMC Kubernetes
+large-scale Kubernetes version
+large-scale container platform Kubernetes
+large-scale Computing Platform Engineer Kubernetes
+大型地端平台 Kubernetes 版本
+大型地端平台 container platform Kubernetes
+large enterprise Kubernetes careers
+large enterprise Kubernetes public source
+site:ithelp.ithome.com.tw Kubernetes 地端 平台
+site:kubernetessummit.ithome.com.tw Kubernetes 地端 平台
 ```
 
 ---
@@ -73,8 +73,8 @@ site:kubernetessummit.ithome.com.tw TSMC Kubernetes
 A. 官方/一手來源
   - Kubernetes official releases
   - Kubernetes GitHub releases
-  - TSMC official careers pages
-  - TSMC official engineering / blog / conference pages
+  - large enterprise official careers pages
+  - large-scale platform engineering / blog / conference pages
 
 B. 高可信二手來源
   - CNCF / KubeCon / iThome Kubernetes Summit speaker pages
@@ -95,9 +95,9 @@ C. 只作線索
 目前初步搜尋可見：
 
 ```text
-有公開職缺/搜尋結果顯示 TSMC 與 Kubernetes / Platform Engineer / Principal Software Engineer (Kubernetes) 相關。
+有公開職缺/搜尋結果顯示大型組織與 Kubernetes / Platform Engineer / Principal Software Engineer (Kubernetes) 相關。
 
-沒有找到可公開驗證的「TSMC 內部 Kubernetes 版本」資訊。
+本 repo 不追蹤任何特定公司內部 Kubernetes 版本。
 ```
 
 因此本 repo 目前只能追蹤：
@@ -105,14 +105,14 @@ C. 只作線索
 ```text
 - Kubernetes upstream 版本與 EOL
 - 供應商支援週期作為比較基準
-- TSMC 公開職缺和公開技術訊號
+- 大型地端平台公開職缺和公開技術訊號
 - 對大型地端平台的通用 upgrade 風險分析
 ```
 
 不能寫成：
 
 ```text
-TSMC 目前使用 Kubernetes vX.Y
+某特定公司目前使用 Kubernetes vX.Y
 ```
 
 除非未來有可信公開來源。
@@ -153,7 +153,7 @@ action: update TRACKING.md if new minor/patch/EOL appears
 
 ```text
 1. 檢查 Kubernetes upstream releases / patch releases
-2. 搜尋 TSMC + Kubernetes / container platform / platform engineer 公開訊號
+2. 搜尋 large-scale platform + Kubernetes / container platform / platform engineer 公開訊號
 3. 若有新可信資訊：
    - 更新 docs/kubernetes-version-watch.md 或新增 sources/YYYY-MM-DD.md
    - 更新 TRACKING.md

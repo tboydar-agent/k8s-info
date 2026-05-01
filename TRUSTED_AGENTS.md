@@ -14,8 +14,8 @@ Allowed:
 
 Not allowed:
   - Secrets / tokens / credentials
-  - Private TSMC internal information
+  - Private specific-company internal information
   - Non-public incident details
   - Personal contact information copied from job posts
-  - Unverified claims about TSMC internal Kubernetes versions
+  - Unverified claims about specific-company internal Kubernetes versions
 ```

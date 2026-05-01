@@ -38,9 +38,9 @@ Provider support matrices:
   AKS supported Kubernetes versions
   GKE release channels / versioning
 
-TSMC public signals:
-  careers.tsmc.com Kubernetes
-  TSMC Computing Platform Engineer Kubernetes
-  TSMC Principal Software Engineer Kubernetes
-  台積電 Kubernetes 版本
+Large-scale platform public signals:
+  large enterprise Kubernetes careers
+  large-scale Computing Platform Engineer Kubernetes
+  large-scale Principal Software Engineer Kubernetes
+  大型地端平台 Kubernetes 版本
 ```
