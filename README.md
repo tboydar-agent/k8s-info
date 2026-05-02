@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-02` 新增 [Kubernetes provider support matrix watch](docs/kubernetes-provider-support-matrix.md) 與 [每日來源摘要](sources/2026-05-02.md)：分開追蹤 upstream / EKS / AKS / GKE / OpenShift / Rancher / Tanzu 支援窗。
 - ★★★★★ `2026-05-01` 新增 [Kubernetes release intelligence（近一年）](docs/kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理 v1.33–v1.36 對全球級資料中心 SRE / platform engineering 的影響。
 - ★★★★☆ `2026-05-01` 建立 [大型地端平台工程師技術地圖](docs/large-scale-platform-engineer-map.md)：把 Container / VM / Bare Metal / OS / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP / KVM 等能力整理成可追蹤方向。
 - ★★★★☆ `2026-05-01` 建立 [Kubernetes version watch](docs/kubernetes-version-watch.md)：每日追蹤 Kubernetes upstream、CNCF/供應商支援週期與公開大型平台/K8s 訊號；不宣稱任何特定公司內部 K8s 版本。
@@ -69,9 +70,11 @@ k8s-info/
 │   ├── README.md
 │   ├── large-scale-platform-engineer-map.md
 │   ├── kubernetes-version-watch.md
+│   ├── kubernetes-provider-support-matrix.md
 │   └── kubernetes-release-intelligence-2025-2026.md
 ├── sources/
-│   └── README.md
+│   ├── README.md
+│   └── 2026-05-02.md
 └── .github/
     └── workflows/
 ```
@@ -92,6 +95,7 @@ k8s-info/
 
 每日追蹤：
   docs/kubernetes-version-watch.md
+  docs/kubernetes-provider-support-matrix.md
   TRACKING.md
 ```
 

@@ -48,8 +48,26 @@ public specific-company internal K8s version: not tracked / not inferred
 - [x] 建立 Kubernetes release / EOL 摘要頁：見 `docs/kubernetes-release-intelligence-2025-2026.md`
 - [ ] 建立 version skew policy 中文導讀
 - [ ] 建立 on-prem Kubernetes upgrade checklist
-- [ ] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher
+- [x] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher：見 `docs/kubernetes-provider-support-matrix.md`
 - [ ] 每日追蹤 Kubernetes / large-scale platform public signals
+
+### 2026-05-02 daily material update
+
+```text
+Upstream:
+  - observed v1.36.0 as latest GitHub release
+  - observed maintained upstream minors: 1.36 / 1.35 / 1.34
+  - recorded 1.36 EOL 2027-06-28 and patch train status from official pages
+
+Provider/vendor:
+  - added provider support matrix watch for EKS / AKS / GKE / OpenShift / Rancher / Tanzu
+  - separated upstream EOL from provider/vendor support windows
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, or non-public data recorded
+```
+
+Source note: `sources/2026-05-02.md`
 
 ### P1 — large-scale platform engineer map
 

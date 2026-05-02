@@ -7,6 +7,7 @@ Kubernetes / Platform Engineering 技術文件（zh-TW）。
 - [Kubernetes release intelligence（近一年，2025-04 到 2026-04）](kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理近一年 Kubernetes release 對全球級資料中心 SRE / platform engineering 的影響。
 - [大型地端平台工程師技術地圖](large-scale-platform-engineer-map.md)：把大型地端運算平台所需能力拆成可學、可追、可驗證的領域。
 - [Kubernetes version watch](kubernetes-version-watch.md)：追蹤 Kubernetes upstream version、support window、供應商支援矩陣，以及公開大型平台/K8s 訊號。
+- [Kubernetes provider support matrix watch](kubernetes-provider-support-matrix.md)：分開追蹤 upstream 與 EKS / AKS / GKE / OpenShift / Rancher / Tanzu 等 provider/vendor support window。
 
 ## 寫作原則
 

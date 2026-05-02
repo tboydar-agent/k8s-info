@@ -154,12 +154,13 @@ action: update TRACKING.md if new minor/patch/EOL appears
 ```text
 1. 檢查 Kubernetes upstream releases / patch releases
 2. 搜尋 large-scale platform + Kubernetes / container platform / platform engineer 公開訊號
-3. 若有新可信資訊：
+3. 檢查 provider/vendor support window：EKS / AKS / GKE / OpenShift / Rancher / Tanzu
+4. 若有新可信資訊：
    - 更新 docs/kubernetes-version-watch.md 或新增 sources/YYYY-MM-DD.md
    - 更新 TRACKING.md
    - commit 到 k8s-info
    - 若變更可驗證且低風險，push 到 origin/main
-4. 若沒有新資訊：
+5. 若沒有新資訊：
    - 回報 no material update
    - 不製造空 commit
 ```
