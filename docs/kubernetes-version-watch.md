@@ -119,6 +119,30 @@ C. 只作線索
 
 ---
 
+## 5.1) 2026-05-03 material update
+
+```text
+Upstream / patch train:
+  - Kubernetes v1.36.0 remains latest upstream release.
+  - GitHub/changelog cross-check records patch baselines:
+      v1.35.4 / v1.34.7 / v1.33.11
+  - next monthly patch target observed: 2026-05-12
+
+Provider / vendor:
+  - EKS: standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30
+  - AKS: lifecycle table includes 1.36 preview May 2026, GA Jun 2026, EOL Jun 2027, LTS EOL Jun 2028
+  - GKE: standard/extended support model confirmed; x.y.z-gke.N rollout remains channel/zone-specific
+  - Rancher v2.14.1: certified v1.33 through v1.35
+  - Tanzu TKG v2.5.4: documented as final enterprise TKG release; Kubernetes workload cluster versions v1.33.1 through v1.27.16
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
+```
+
+Source note: `../sources/2026-05-03.md`
+
+---
+
 ## 6) 版本追蹤欄位
 
 ```text

@@ -1,6 +1,6 @@
 # Kubernetes provider support matrix watch
 
-> 更新時間：2026-05-02
+> 更新時間：2026-05-03
 > 目的：把 upstream Kubernetes support window 與 managed / vendor Kubernetes support window 分開追蹤。
 > 邊界：只整理公開官方文件；不追蹤、保存或推論任何特定公司內部 Kubernetes 版本或架構。
 
@@ -26,7 +26,7 @@ Cloud provider / vendor:
 
 ---
 
-## 1) 2026-05-02 快照
+## 1) 2026-05-03 快照
 
 ```text
 ┌──────────────────────┐
@@ -35,6 +35,13 @@ Cloud provider / vendor:
             │  latest-three maintenance baseline
             ▼
   1.36 / 1.35 / 1.34
+
+┌──────────────────────┐
+│ Patch train           │
+└───────────┬──────────┘
+            │  latest GitHub/changelog cross-check
+            ▼
+  1.36.0 / 1.35.4 / 1.34.7 / 1.33.11
 
 ┌──────────────────────┐
 │ Provider / vendor     │
@@ -54,12 +61,14 @@ Source:
   - https://kubernetes.io/releases/patch-releases/
   - https://github.com/kubernetes/kubernetes/releases
 
-Observed on 2026-05-02:
+Observed on 2026-05-03:
   - Latest GitHub release observed: v1.36.0
   - Maintained upstream minor branches observed: 1.36, 1.35, 1.34
+  - 1.36 release date: 2026-04-22
   - 1.36 EOL: 2027-06-28
-  - 1.35 latest patch observed: 1.35.3; next patch observed: 1.35.4
-  - 1.34 latest patch observed: 1.34.6
+  - Latest patch cross-check from GitHub/changelog:
+      1.36.0 / 1.35.4 / 1.34.7 / 1.33.11
+  - Next monthly patch target observed: 2026-05-12
 ```
 
 Implication:
@@ -93,6 +102,10 @@ Observed on 2026-05-02:
 Lifecycle model observed:
   - 14 months standard support
   - then 12 months extended support
+
+2026-05-03 re-check:
+  - No material lifecycle-model change observed.
+  - EKS still differs from upstream by product release and extended-support policy.
 ```
 
 Planning note:
@@ -112,9 +125,10 @@ Observed on 2026-05-02:
   - AKS lifecycle table lists 1.33, 1.34, 1.35, 1.36.
   - Roadmap text observed for 1.36:
       upstream release: Apr 2026
-      AKS GA: around May 2026
-      platform support: around Jun 2026
+      AKS preview: May 2026
+      AKS GA: Jun 2026
       EOL: around Jun 2027
+      LTS EOL: around Jun 2028
 ```
 
 Planning note:
@@ -141,6 +155,10 @@ Observed on 2026-05-02:
   - GKE versioning docs describe:
       standard support: month 1 through month 14
       extended support: month 15 through month 24, where enabled / available
+
+2026-05-03 re-check:
+  - GKE versioning page last-updated marker observed: 2026-04-29 UTC.
+  - Key planning rule unchanged: x.y.z-gke.N is provider-specific and channel/zone rollout matters.
 ```
 
 Planning note:
@@ -159,6 +177,7 @@ Source:
 Observed on 2026-05-02:
   - Official lifecycle page available.
   - Use Red Hat lifecycle policy as the source of truth for OpenShift support windows.
+  - OpenShift 4 lifecycle is phased by minor release; even-numbered minor releases are EUS releases.
 ```
 
 Planning note:
@@ -173,11 +192,12 @@ Do not map upstream Kubernetes EOL directly to OpenShift EOL without checking Re
 
 ```text
 Source:
-  https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/rancher-v2-12-1/
+  https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/
 
-Observed on 2026-05-02:
-  - Rancher / RKE2 support matrix exposes version families including:
-      1.35 / 1.34 / 1.33 / 1.32 / 1.31 / 1.30
+Observed on 2026-05-03:
+  - Rancher Manager v2.14.1 certified Kubernetes platform range: v1.33 through v1.35.
+  - RKE2 downstream support: 1.35 / 1.34 / 1.33.
+  - K3s downstream support: 1.35 / 1.34 / 1.33.
 ```
 
 Planning note:
@@ -197,16 +217,18 @@ For on-prem fleets, track:
 Source family:
   Broadcom / VMware Tanzu official documentation
 
-Observed on 2026-05-02:
-  - Keep Tanzu release notes and lifecycle docs in watchlist.
-  - A previously checked TKG 2.5 release-note URL returned 404; use current official Broadcom docs navigation before recording exact version claims.
+Observed on 2026-05-03:
+  - Live Broadcom TKG v2.5.x release notes page observed.
+  - TKG v2.5.4 is documented as the final enterprise release of TKG.
+  - TKG v2.5.4 supports Kubernetes workload cluster versions v1.33.1 through v1.27.16.
+  - Workload clusters cannot skip Kubernetes minor versions during upgrade.
 ```
 
 Planning note:
 
 ```text
-Do not preserve stale Tanzu URLs as version evidence.
-Only record a Tanzu version when a live official doc page confirms it.
+Tanzu / VKS planning must be treated as a vendor lifecycle and migration topic,
+not as a direct upstream Kubernetes version-only decision.
 ```
 
 ---
@@ -246,5 +268,6 @@ Providers:
 
 Vendors:
   https://access.redhat.com/support/policy/updates/openshift
-  https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/rancher-v2-12-1/
+  https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/
+  https://techdocs.broadcom.com/us/en/vmware-tanzu/standalone-components/tanzu-kubernetes-grid/2-5/tkg/mgmt-release-notes.html
 ```

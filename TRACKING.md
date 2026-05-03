@@ -51,6 +51,30 @@ public specific-company internal K8s version: not tracked / not inferred
 - [x] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher：見 `docs/kubernetes-provider-support-matrix.md`
 - [ ] 每日追蹤 Kubernetes / large-scale platform public signals
 
+### 2026-05-03 daily material update
+
+```text
+Upstream / patch train:
+  - recorded Kubernetes v1.36.0 as current latest release baseline
+  - cross-checked v1.35.4 / v1.34.7 / v1.33.11 from GitHub releases and changelogs
+  - recorded next monthly patch target: 2026-05-12
+
+Provider/vendor:
+  - refreshed EKS / AKS / GKE lifecycle notes
+  - updated Rancher Manager v2.14.1 certified range to v1.33 through v1.35
+  - replaced stale Tanzu uncertainty with live Broadcom TKG v2.5.x release-note evidence
+
+Docs:
+  - added sources/2026-05-03.md
+  - updated docs/kubernetes-version-watch.md
+  - updated docs/kubernetes-provider-support-matrix.md
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
+```
+
+Source note: `sources/2026-05-03.md`
+
 ### 2026-05-02 daily material update
 
 ```text
