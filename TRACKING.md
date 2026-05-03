@@ -102,10 +102,34 @@ Source note: `sources/2026-05-02.md`
 ### P1 — large-scale platform engineer map
 
 - [x] 建立初版技術地圖：Bare Metal / OS / KVM / Container / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP
-- [ ] 補 Linux node pressure debugging playbook
+- [x] 補 Linux node pressure debugging playbook：見 `docs/node-pressure-debugging.md`
 - [ ] 補 BGP + Kubernetes load balancing 導讀
 - [ ] 補 CSI / storage failure mode 導讀
 - [ ] 補 multi-cluster / multi-region 架構筆記
+
+### 2026-05-03 deep-research contribution
+
+```text
+Topic:
+  Linux node pressure debugging
+
+Docs:
+  - added docs/node-pressure-debugging.md
+  - mapped official node-pressure eviction signals to an on-call first-pass checklist
+  - covered MemoryPressure, DiskPressure/inode, PIDPressure, taints, basic metrics limits, and privacy boundaries
+
+Sources:
+  - Kubernetes Node-pressure Eviction
+  - Kubernetes Node Status
+  - Kubernetes Troubleshooting Clusters
+  - Kubernetes Resource Metrics Pipeline
+  - Kubernetes Resource Management for Pods and Containers
+
+Privacy:
+  - no specific-company internal Kubernetes version, topology, hostname, IP, ticket, private link, personal contact, or non-public data recorded
+```
+
+Source note: `sources/2026-05-03.md`
 
 ### P2 — SRE / Day2 operations
 

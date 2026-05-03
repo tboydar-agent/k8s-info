@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-03` 新增 [Linux node pressure debugging playbook](docs/node-pressure-debugging.md)：整理 MemoryPressure / DiskPressure / PIDPressure、kubelet eviction signals 與 on-call 初判流程。
 - ★★★★★ `2026-05-02` 新增 [Kubernetes version skew 中文導讀](docs/kubernetes-version-skew.md)：把 upstream skew policy 轉成 on-prem control plane / node pool 升級檢查語言。
 - ★★★★☆ `2026-05-02` 新增 [Kubernetes provider support matrix watch](docs/kubernetes-provider-support-matrix.md) 與 [每日來源摘要](sources/2026-05-02.md)：分開追蹤 upstream / EKS / AKS / GKE / OpenShift / Rancher / Tanzu 支援窗。
 - ★★★★★ `2026-05-01` 新增 [Kubernetes release intelligence（近一年）](docs/kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理 v1.33–v1.36 對全球級資料中心 SRE / platform engineering 的影響。
@@ -72,6 +73,7 @@ k8s-info/
 │   ├── large-scale-platform-engineer-map.md
 │   ├── kubernetes-version-watch.md
 │   ├── kubernetes-version-skew.md
+│   ├── node-pressure-debugging.md
 │   ├── kubernetes-provider-support-matrix.md
 │   └── kubernetes-release-intelligence-2025-2026.md
 ├── sources/
@@ -91,6 +93,7 @@ k8s-info/
 
 20 分鐘：
   docs/kubernetes-release-intelligence-2025-2026.md
+  docs/node-pressure-debugging.md
 
 30 分鐘：
   docs/large-scale-platform-engineer-map.md
