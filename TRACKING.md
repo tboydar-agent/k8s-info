@@ -139,8 +139,33 @@ Source note: `sources/2026-05-02.md`
 - [x] 建立初版技術地圖：Bare Metal / OS / KVM / Container / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP
 - [x] 補 Linux node pressure debugging playbook：見 `docs/node-pressure-debugging.md`
 - [ ] 補 BGP + Kubernetes load balancing 導讀
-- [ ] 補 CSI / storage failure mode 導讀
+- [x] 補 CSI / storage failure mode 導讀：見 `docs/csi-storage-failure-modes.md`
 - [ ] 補 multi-cluster / multi-region 架構筆記
+
+### 2026-05-04 deep-research contribution
+
+```text
+Topic:
+  CSI / Kubernetes storage failure modes
+
+Docs:
+  - added docs/csi-storage-failure-modes.md
+  - mapped official PV/PVC/StorageClass/CSI sidecar/snapshot mechanics into a low-risk on-call triage flow
+  - covered PVC Pending, attach/mount failures, topology conflicts, resize/snapshot capability gaps, and reclaim/finalizer boundaries
+
+Sources:
+  - Kubernetes Persistent Volumes
+  - Kubernetes Storage Classes
+  - Kubernetes Volumes
+  - Kubernetes Volume Snapshots
+  - Kubernetes CSI developer docs
+  - Kubernetes CSI sidecar containers: external-provisioner, external-attacher, external-resizer, node-driver-registrar
+
+Privacy:
+  - no specific-company internal Kubernetes version, topology, hostname, IP, ticket, private link, personal contact, or non-public data recorded
+```
+
+Source note: `sources/2026-05-04.md`
 
 ### 2026-05-03 deep-research contribution
 

@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-04` 新增 [CSI / Kubernetes storage failure modes 導讀](docs/csi-storage-failure-modes.md)：把 PVC/PV/StorageClass/CSI sidecars/snapshot 的常見故障拆成 on-call 初判流程。
 - ★★★★☆ `2026-05-03` 新增 [Linux node pressure debugging playbook](docs/node-pressure-debugging.md)：整理 MemoryPressure / DiskPressure / PIDPressure、kubelet eviction signals 與 on-call 初判流程。
 - ★★★★★ `2026-05-02` 新增 [Kubernetes version skew 中文導讀](docs/kubernetes-version-skew.md)：把 upstream skew policy 轉成 on-prem control plane / node pool 升級檢查語言。
 - ★★★★☆ `2026-05-02` 新增 [Kubernetes provider support matrix watch](docs/kubernetes-provider-support-matrix.md) 與 [每日來源摘要](sources/2026-05-02.md)：分開追蹤 upstream / EKS / AKS / GKE / OpenShift / Rancher / Tanzu 支援窗。
@@ -74,6 +75,7 @@ k8s-info/
 │   ├── kubernetes-version-watch.md
 │   ├── kubernetes-version-skew.md
 │   ├── node-pressure-debugging.md
+│   ├── csi-storage-failure-modes.md
 │   ├── kubernetes-provider-support-matrix.md
 │   └── kubernetes-release-intelligence-2025-2026.md
 ├── sources/
@@ -94,6 +96,7 @@ k8s-info/
 20 分鐘：
   docs/kubernetes-release-intelligence-2025-2026.md
   docs/node-pressure-debugging.md
+  docs/csi-storage-failure-modes.md
 
 30 分鐘：
   docs/large-scale-platform-engineer-map.md
