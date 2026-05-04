@@ -143,6 +143,45 @@ Source note: `../sources/2026-05-03.md`
 
 ---
 
+## 5.2) 2026-05-04 material update
+
+```text
+Upstream / patch train:
+  - no newer stable Kubernetes release observed after v1.36.0
+  - maintained upstream minor branches remain 1.36 / 1.35 / 1.34
+  - GitHub/changelog patch baseline remains:
+      v1.36.0 / v1.35.4 / v1.34.7 / v1.33.11
+  - official patch page next target remains 2026-05-12
+  - branch-specific next patch targets observed:
+      v1.36.1 / v1.35.4 / v1.34.7
+  - release-summary page may lag patch rows; cross-check GitHub tags and raw changelogs
+
+v1.36 upgrade-action themes:
+  - metric renames: volume_operation_total_errors, etcd_bookmark_counts
+  - scheduler PreBind plugin API / parallel execution changes
+  - DRA ResourceClaim granular status authorization RBAC
+  - kubeadm FlexVolume support removal
+  - git-repo volume plugin disabled and in-tree Portworx plugin removed
+
+Provider / vendor:
+  - EKS: standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30
+  - AKS: 1.36 roadmap remains preview May 2026, GA Jun 2026, standard EOL Jun 2027, LTS EOL Jun 2028
+  - GKE: versioning page last-updated marker observed as 2026-05-01 UTC
+  - Rancher v2.14.1: certified v1.33 through v1.35 remains visible baseline
+  - Tanzu TKG v2.5.x: release notes last-updated marker observed as 2026-04-30
+
+Large-scale platform signal:
+  - CNCF 2026-04-30 article frames AI-era sandboxing as a Kubernetes security/isolation design problem
+  - CNCF KubeCon EU recap reinforces platform engineering as socio-technical work: self-service APIs, onboarding, feedback loops, and inclusive design
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
+```
+
+Source note: `../sources/2026-05-04.md`
+
+---
+
 ## 6) 版本追蹤欄位
 
 ```text

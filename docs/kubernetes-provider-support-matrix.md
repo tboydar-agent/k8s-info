@@ -1,6 +1,6 @@
 # Kubernetes provider support matrix watch
 
-> 更新時間：2026-05-03
+> 更新時間：2026-05-04
 > 目的：把 upstream Kubernetes support window 與 managed / vendor Kubernetes support window 分開追蹤。
 > 邊界：只整理公開官方文件；不追蹤、保存或推論任何特定公司內部 Kubernetes 版本或架構。
 
@@ -69,6 +69,10 @@ Observed on 2026-05-03:
   - Latest patch cross-check from GitHub/changelog:
       1.36.0 / 1.35.4 / 1.34.7 / 1.33.11
   - Next monthly patch target observed: 2026-05-12
+  - Branch-specific next patch targets observed 2026-05-04:
+      1.36.1 / 1.35.4 / 1.34.7
+  - Caveat observed 2026-05-04:
+      release-summary page rows may lag GitHub tags and raw changelogs
 ```
 
 Implication:
@@ -156,8 +160,8 @@ Observed on 2026-05-02:
       standard support: month 1 through month 14
       extended support: month 15 through month 24, where enabled / available
 
-2026-05-03 re-check:
-  - GKE versioning page last-updated marker observed: 2026-04-29 UTC.
+2026-05-04 re-check:
+  - GKE versioning page last-updated marker observed: 2026-05-01 UTC.
   - Key planning rule unchanged: x.y.z-gke.N is provider-specific and channel/zone rollout matters.
 ```
 

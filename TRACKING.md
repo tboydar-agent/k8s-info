@@ -51,6 +51,41 @@ public specific-company internal K8s version: not tracked / not inferred
 - [x] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher：見 `docs/kubernetes-provider-support-matrix.md`
 - [ ] 每日追蹤 Kubernetes / large-scale platform public signals
 
+### 2026-05-04 daily material update
+
+```text
+Upstream / patch train:
+  - no newer stable Kubernetes release observed after v1.36.0
+  - recorded branch-specific next patch targets from official patch page:
+      v1.36.1 / v1.35.4 / v1.34.7
+  - next monthly patch target remains 2026-05-12; cherry-pick deadline remains 2026-05-08
+  - recorded release-summary-page lag caveat: use GitHub tags and raw changelogs as cross-checks
+
+v1.36 upgrade-action themes:
+  - metric rename checks for dashboards / alerts
+  - scheduler plugin API change checks
+  - DRA RBAC checks
+  - legacy FlexVolume / git-repo / in-tree storage checks
+
+Provider/vendor:
+  - refreshed EKS / AKS / GKE / Rancher / OpenShift / Tanzu lifecycle notes from official docs
+  - observed GKE versioning page last-updated marker: 2026-05-01 UTC
+  - observed TKG v2.5.x release notes last-updated marker: 2026-04-30
+
+Large-scale platform signal:
+  - added CNCF AI sandboxing / workload-isolation signal
+  - added CNCF KubeCon EU platform-engineering socio-technical signal
+
+Docs:
+  - added sources/2026-05-04.md
+  - updated docs/kubernetes-version-watch.md
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
+```
+
+Source note: `sources/2026-05-04.md`
+
 ### 2026-05-03 daily material update
 
 ```text
