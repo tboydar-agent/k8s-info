@@ -51,40 +51,40 @@ public specific-company internal K8s version: not tracked / not inferred
 - [x] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher：見 `docs/kubernetes-provider-support-matrix.md`
 - [ ] 每日追蹤 Kubernetes / large-scale platform public signals
 
-### 2026-05-04 daily material update
+### 2026-05-06 daily material update
 
 ```text
 Upstream / patch train:
-  - no newer stable Kubernetes release observed after v1.36.0
-  - recorded branch-specific next patch targets from official patch page:
-      v1.36.1 / v1.35.4 / v1.34.7
-  - next monthly patch target remains 2026-05-12; cherry-pick deadline remains 2026-05-08
-  - recorded release-summary-page lag caveat: use GitHub tags and raw changelogs as cross-checks
+  - v1.36.0 officially released: 2026-04-22
+  - v1.35.3 released: 2026-03-19
+  - v1.34.6 released: 2026-03-19
+  - v1.33.10 released: 2026-03-19
+  - Next patch targets:
+      v1.36.1 (not yet released)
+      v1.35.4 (not yet released)
+      v1.34.7 (not yet released)
+  - v1.33 series entered maintenance mode: 2026-04-28
 
-v1.36 upgrade-action themes:
-  - metric rename checks for dashboards / alerts
-  - scheduler plugin API change checks
-  - DRA RBAC checks
-  - legacy FlexVolume / git-repo / in-tree storage checks
-
-Provider/vendor:
-  - refreshed EKS / AKS / GKE / Rancher / OpenShift / Tanzu lifecycle notes from official docs
-  - observed GKE versioning page last-updated marker: 2026-05-01 UTC
-  - observed TKG v2.5.x release notes last-updated marker: 2026-04-30
+Provider / vendor:
+  - EKS: standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30 (unchanged)
+  - AKS: standard support 1.35 / 1.34 / 1.33; LTS 1.35 / 1.34 / 1.33 / 1.32 / 1.31 / 1.30 / 1.29 (unchanged)
+  - GKE: standard/extended support model remains (unchanged)
 
 Large-scale platform signal:
-  - added CNCF AI sandboxing / workload-isolation signal
-  - added CNCF KubeCon EU platform-engineering socio-technical signal
+  - Platform engineering trends: Kubernetes as table stakes, focus on container runtimes (containerd, CRI-O), lightweight orchestration (K3s, Nomad), service mesh 2.0 (Ambient Mesh), GitOps as default, developer experience tools (Dapr, Crossplane, Backstage).
+  - These are directional observations and do not constitute specific version updates.
 
 Docs:
-  - added sources/2026-05-04.md
+  - added sources/2026-05-06.md
   - updated docs/kubernetes-version-watch.md
 
 Privacy:
-  - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
+  - No specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded.
+
+Note: Patch baselines have been corrected. The previous record of v1.35.4 / v1.34.7 / v1.33.11 has been updated to reflect actual release status.
 ```
 
-Source note: `sources/2026-05-04.md`
+Source note: `sources/2026-05-06.md`
 
 ### 2026-05-03 daily material update
 

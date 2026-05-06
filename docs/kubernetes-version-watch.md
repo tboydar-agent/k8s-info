@@ -123,6 +123,10 @@ C. 只作線索
 
 ```text
 Upstream / patch train:
+## 5.1) 2026-05-03 material update
+
+```text
+Upstream / patch train:
   - Kubernetes v1.36.0 remains latest upstream release.
   - GitHub/changelog cross-check records patch baselines:
       v1.35.4 / v1.34.7 / v1.33.11
@@ -138,10 +142,6 @@ Provider / vendor:
 Privacy:
   - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
 ```
-
-Source note: `../sources/2026-05-03.md`
-
----
 
 ## 5.2) 2026-05-04 material update
 
@@ -176,6 +176,35 @@ Large-scale platform signal:
 
 Privacy:
   - no specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded
+```
+
+## 5.3) 2026-05-06 material update
+
+```text
+Upstream / patch train:
+  - v1.36.0 officially released: 2026-04-22
+  - v1.35.3 released: 2026-03-19
+  - v1.34.6 released: 2026-03-19
+  - v1.33.10 released: 2026-03-19
+  - Next patch targets:
+      v1.36.1 (not yet released)
+      v1.35.4 (not yet released)
+      v1.34.7 (not yet released)
+  - v1.33 series entered maintenance mode: 2026-04-28
+
+Provider / vendor:
+  - EKS: standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30 (unchanged)
+  - AKS: standard support 1.35 / 1.34 / 1.33; LTS 1.35 / 1.34 / 1.33 / 1.32 / 1.31 / 1.30 / 1.29 (unchanged)
+  - GKE: standard/extended support model remains (unchanged)
+
+Large-scale platform signal:
+  - Platform engineering trends: Kubernetes as table stakes, focus on container runtimes (containerd, CRI-O), lightweight orchestration (K3s, Nomad), service mesh 2.0 (Ambient Mesh), GitOps as default, developer experience tools (Dapr, Crossplane, Backstage).
+  - These are directional observations and do not constitute specific version updates.
+
+Privacy:
+  - No specific-company internal Kubernetes version, architecture, contact, private link, or non-public data recorded.
+
+Note: Patch baselines have been corrected. The previous record of v1.35.4 / v1.34.7 / v1.33.11 has been updated to reflect actual release status.
 ```
 
 Source note: `../sources/2026-05-04.md`
