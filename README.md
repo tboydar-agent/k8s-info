@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★★ `2026-05-07` 新增 [On-prem Kubernetes 升級檢查表](docs/on-prem-upgrade-checklist.md)：完整 on-prem 升級流程、檢查表與實務案例。
 - ★★★★☆ `2026-05-06` 新增 [Kubernetes 版本生命周期與升級策略](docs/kubernetes-version-lifecycle-and-upgrade-strategy.md)：整合版本支援週期、version skew policy、升級順序與大型地端平台特殊考量。
 - ★★★★☆ `2026-05-04` 新增 [CSI / Kubernetes storage failure modes 導讀](docs/csi-storage-failure-modes.md)：把 PVC/PV/StorageClass/CSI sidecars/snapshot 的常見故障拆成 on-call 初判流程。
 - ★★★★☆ `2026-05-03` 新增 [Linux node pressure debugging playbook](docs/node-pressure-debugging.md)：整理 MemoryPressure / DiskPressure / PIDPressure、kubelet eviction signals 與 on-call 初判流程。

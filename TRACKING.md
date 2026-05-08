@@ -48,8 +48,9 @@ public specific-company internal K8s version: not tracked / not inferred
 - [x] 建立 Kubernetes release / EOL 摘要頁：見 `docs/kubernetes-release-intelligence-2025-2026.md`
 - [x] 建立 version skew policy 中文導讀：見 `docs/kubernetes-version-skew.md`
 - [x] 建立 Kubernetes 版本生命周期與升級策略：見 `docs/kubernetes-version-lifecycle-and-upgrade-strategy.md`
-- [ ] 建立 on-prem Kubernetes upgrade checklist
-- [x] 建立 provider support matrix 對照：EKS / AKS / GKE / OpenShift / Rancher / Tanzu：見 `docs/kubernetes-provider-support-matrix.md`
+- [x] 建立 on-prem Kubernetes upgrade checklist：見 `docs/on-prem-upgrade-checklist.md`
+- [x] 建立 provider support matrix 對照：EKS / AKS / GGE / OpenShift / Rancher / Tanzu：見 `docs/kubernetes-provider-support-matrix.md`
+- [ ] 建立 Kubernetes version skew 實務案例研究
 - [ ] 每日追蹤 Kubernetes / large-scale platform public signals
 
 ### 2026-05-06 daily material update
