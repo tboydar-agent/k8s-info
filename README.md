@@ -11,12 +11,13 @@
 
 ## 最新更新重點
 
+- ★★★★★ `2026-05-09` 新增 [Kubernetes 版本偏差實務案例研究](docs/kubernetes-version-skew-on-prem-case-studies.md)：大型地端平台常見的版本偏差陷阱與解決方案，包含 CNI/CSI 相容性、HA cluster 管理、多 node pool 升級等實務案例。
 - ★★★★★ `2026-05-07` 新增 [On-prem Kubernetes 升級檢查表](docs/on-prem-upgrade-checklist.md)：完整 on-prem 升級流程、檢查表與實務案例。
 - ★★★★☆ `2026-05-06` 新增 [Kubernetes 版本生命周期與升級策略](docs/kubernetes-version-lifecycle-and-upgrade-strategy.md)：整合版本支援週期、version skew policy、升級順序與大型地端平台特殊考量。
 - ★★★★☆ `2026-05-04` 新增 [CSI / Kubernetes storage failure modes 導讀](docs/csi-storage-failure-modes.md)：把 PVC/PV/StorageClass/CSI sidecars/snapshot 的常見故障拆成 on-call 初判流程。
 - ★★★★☆ `2026-05-03` 新增 [Linux node pressure debugging playbook](docs/node-pressure-debugging.md)：整理 MemoryPressure / DiskPressure / PIDPressure、kubelet eviction signals 與 on-call 初判流程。
 - ★★★★★ `2026-05-02` 新增 [Kubernetes version skew 中文導讀](docs/kubernetes-version-skew.md)：把 upstream skew policy 轉成 on-prem control plane / node pool 升級檢查語言。
-- ★★★★☆ `2026-05-02` 新增 [Kubernetes provider support matrix watch](docs/kubernetes-provider-support-matrix.md) 與 [每日來源摘要](sources/2026-05-02.md)：分開追蹤 upstream / EKS / AKS / GKE / OpenShift / Rancher / Tanzu 支援窗。
+- ★★★★☆ `2026-05-02` 新增 [Kubernetes provider support matrix watch](docs/kubernetes-provider-support-matrix.md) 與 [每日來源摘要](sources/2026-05-02.md)：分開追蹤 upstream / EKS / AKS / GGE / OpenShift / Rancher / Tanzu 支援窗。
 - ★★★★★ `2026-05-01` 新增 [Kubernetes release intelligence（近一年）](docs/kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理 v1.33–v1.36 對全球級資料中心 SRE / platform engineering 的影響。
 - ★★★★☆ `2026-05-01` 建立 [大型地端平台工程師技術地圖](docs/large-scale-platform-engineer-map.md)：把 Container / VM / Bare Metal / OS / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP / KVM 等能力整理成可追蹤方向。
 - ★★★★☆ `2026-05-01` 建立 [Kubernetes version watch](docs/kubernetes-version-watch.md)：每日追蹤 Kubernetes upstream、CNCF/供應商支援週期與公開大型平台/K8s 訊號；不宣稱任何特定公司內部 K8s 版本。
