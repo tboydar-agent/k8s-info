@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-11` 新增 [BGP / Kubernetes LoadBalancer 導讀](docs/bgp-kubernetes-load-balancing.md)：整理 bare-metal Service LoadBalancer、L2 announcement、BGP advertisement、MetalLB / Cilium / Calico 選型與故障初判。
 - ★★★★★ `2026-05-09` 新增 [Kubernetes 版本偏差實務案例研究](docs/kubernetes-version-skew-on-prem-case-studies.md)：大型地端平台常見的版本偏差陷阱與解決方案，包含 CNI/CSI 相容性、HA cluster 管理、多 node pool 升級等實務案例。
 - ★★★★★ `2026-05-07` 新增 [On-prem Kubernetes 升級檢查表](docs/on-prem-upgrade-checklist.md)：完整 on-prem 升級流程、檢查表與實務案例。
 - ★★★★☆ `2026-05-06` 新增 [Kubernetes 版本生命周期與升級策略](docs/kubernetes-version-lifecycle-and-upgrade-strategy.md)：整合版本支援週期、version skew policy、升級順序與大型地端平台特殊考量。
@@ -79,6 +80,7 @@ k8s-info/
 │   ├── kubernetes-version-skew.md
 │   ├── node-pressure-debugging.md
 │   ├── csi-storage-failure-modes.md
+│   ├── bgp-kubernetes-load-balancing.md
 │   ├── kubernetes-provider-support-matrix.md
 │   ├── kubernetes-release-intelligence-2025-2026.md
 │   └── kubernetes-version-lifecycle-and-upgrade-strategy.md

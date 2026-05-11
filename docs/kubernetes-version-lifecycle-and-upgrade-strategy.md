@@ -356,6 +356,6 @@
     356|
     357>- [Kubernetes Version Skew Policy](https://kubernetes.io/releases/version-skew-policy/)
     358>- [Kubernetes Releases](https://kubernetes.io/releases/)
-    359>- [Version Skew Management](docs/kubernetes-version-skew.md)
-    360>- [Version Watch](docs/kubernetes-version-watch.md)
+    359>- [Version Skew Management](kubernetes-version-skew.md)
+    360>- [Version Watch](kubernetes-version-watch.md)
     361>|]

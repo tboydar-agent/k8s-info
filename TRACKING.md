@@ -167,7 +167,7 @@ Source note: `sources/2026-05-02.md`
 
 - [x] 建立初版技術地圖：Bare Metal / OS / KVM / Container / K8S / Network / Storage / Security / IaC / ServiceMesh / BGP
 - [x] 補 Linux node pressure debugging playbook：見 `docs/node-pressure-debugging.md`
-- [ ] 補 BGP + Kubernetes load balancing 導讀
+- [x] 補 BGP + Kubernetes load balancing 導讀：見 `docs/bgp-kubernetes-load-balancing.md`
 - [x] 補 CSI / storage failure mode 導讀：見 `docs/csi-storage-failure-modes.md`
 - [ ] 補 multi-cluster / multi-region 架構筆記
 
@@ -195,6 +195,30 @@ Privacy:
 ```
 
 Source note: `sources/2026-05-04.md`
+
+### 2026-05-11 deep-research contribution
+
+```text
+Topic:
+  BGP / Kubernetes LoadBalancer on bare metal
+
+Docs:
+  - added docs/bgp-kubernetes-load-balancing.md
+  - mapped Kubernetes Service LoadBalancer boundaries to L2/BGP announcement choices
+  - compared MetalLB, Cilium BGP/L2, and Calico service IP advertisement from official docs
+  - added low-risk design checklist and first-pass troubleshooting flow
+
+Sources:
+  - Kubernetes Service docs
+  - MetalLB concepts/configuration/advanced BGP configuration
+  - Cilium BGP Control Plane and L2 Announcements docs
+  - Calico BGP peering and service IP advertisement docs
+
+Privacy:
+  - no specific-company internal network topology, IP ranges, router configs, credentials, personal contact, or non-public data recorded
+```
+
+Source note: `sources/2026-05-11.md`
 
 ### 2026-05-03 deep-research contribution
 

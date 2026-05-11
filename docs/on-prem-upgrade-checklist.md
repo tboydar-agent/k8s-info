@@ -296,8 +296,8 @@ Kubernetes 升級是一個系統性的過程，需要仔細規劃與執行。遵
 - [Kubernetes Version Skew Policy](https://kubernetes.io/releases/version-skew-policy/)
 - [Kubernetes Releases](https://kubernetes.io/releases/)
 - [Upgrading kubeadm clusters](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/)
-- [Version Skew Management](docs/kubernetes-version-skew.md)
-- [Kubernetes 版本生命周期與升級策略](docs/kubernetes-version-lifecycle-and-upgrade-strategy.md)
+- [Version Skew Management](kubernetes-version-skew.md)
+- [Kubernetes 版本生命周期與升級策略](kubernetes-version-lifecycle-and-upgrade-strategy.md)
 
 ---  
 *本文件基於 Kubernetes 官方文件與公開最佳實務整理，僅供參考。實際升級前請參閱最新官方文件。*
