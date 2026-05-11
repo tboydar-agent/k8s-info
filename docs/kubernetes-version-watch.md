@@ -207,7 +207,35 @@ Privacy:
 Note: Patch baselines have been corrected. The previous record of v1.35.4 / v1.34.7 / v1.33.11 has been updated to reflect actual release status.
 ```
 
-Source note: `../sources/2026-05-04.md`
+Source note: `../sources/2026-05-06.md`
+
+## 5.4) 2026-05-11 material update
+
+```text
+Upstream / patch train:
+  - v1.36.0 remains latest upstream minor baseline.
+  - Official Kubernetes patch-release page and GitHub releases now both verify:
+      v1.35.4 / v1.34.7 / v1.33.11
+  - Official patch rows show release cut 2026-04-10 and release date 2026-04-14 for those patches.
+  - GitHub release publication timestamps are 2026-04-15 UTC.
+  - v1.36.1 remains a next patch target / not observed as released in official rows.
+
+Provider / vendor:
+  - EKS remains standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30.
+  - AKS lifecycle row includes 1.36: upstream Apr 2026, preview May 2026,
+    GA Jun 2026, standard EOL Jun 2027, platform support until 1.40 GA.
+  - GKE release schedule includes 1.36 milestones and page last-updated marker 2026-05-08 UTC.
+  - OpenShift/Tanzu exact docs URLs need follow-up because automated checks hit HTTP 403/404; no new vendor support claim recorded from those failed fetches.
+
+Large-scale platform signal:
+  - no new material version-specific large-scale platform signal recorded today.
+  - operational takeaway: keep upstream patch baseline, provider support windows, and internal upgrade sequencing separate.
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, private link, token, or non-public data recorded.
+```
+
+Source note: `../sources/2026-05-11.md`
 
 ---
 
