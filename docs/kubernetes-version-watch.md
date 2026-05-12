@@ -237,6 +237,36 @@ Privacy:
 
 Source note: `../sources/2026-05-11.md`
 
+## 5.5) 2026-05-12 material update
+
+```text
+Upstream / patch train:
+  - No newer stable upstream release observed today.
+  - v1.36.0 remains latest upstream minor baseline.
+  - Released patch baseline remains:
+      v1.35.4 / v1.34.7 / v1.33.11
+  - Official patch page now exposes next active-branch targets:
+      v1.36.1 / v1.35.5 / v1.34.8
+  - GitHub release API did not show those next targets as published stable tags in the fetched page.
+
+Provider / vendor:
+  - EKS remains standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30.
+  - AKS 1.36 lifecycle row remains visible: preview May 2026, GA Jun 2026,
+    standard EOL Jun 2027, platform support until 1.40 GA.
+  - GKE 1.36 release schedule milestones remain visible; page last-updated marker 2026-05-08 UTC.
+  - SUSE/Rancher matrix was reachable and exposes RKE2/K3s entries including 1.35 / 1.34 / 1.33;
+    no new exact Rancher Manager certification claim was added without per-row validation.
+
+Large-scale platform signal:
+  - no new material version-specific large-scale platform signal recorded today.
+  - operational takeaway: released tags are the patch baseline; next-target rows are watch items.
+
+Privacy:
+  - no specific-company internal Kubernetes version, architecture, contact, private link, token, or non-public data recorded.
+```
+
+Source note: `../sources/2026-05-12.md`
+
 ---
 
 ## 6) 版本追蹤欄位
