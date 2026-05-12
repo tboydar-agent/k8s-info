@@ -8,6 +8,7 @@ Kubernetes / Platform Engineering 技術文件（zh-TW）。
 - [Linux node pressure debugging playbook](node-pressure-debugging.md)：整理 MemoryPressure / DiskPressure / PIDPressure、kubelet eviction signals 與 on-call 初判流程。
 - [CSI / Kubernetes storage failure modes 導讀](csi-storage-failure-modes.md)：把 PVC/PV/StorageClass/CSI sidecars/snapshot 的常見故障拆成 on-call 初判流程。
 - [BGP / Kubernetes LoadBalancer 導讀](bgp-kubernetes-load-balancing.md)：整理 bare-metal `Service type=LoadBalancer`、L2 announcement、BGP advertisement、MetalLB / Cilium / Calico 選型與 Day-2 檢查。
+- [Kubernetes observability / incident response 導讀](kubernetes-observability-incident-response.md)：把 Events、logs、metrics、probes 與 SRE incident/postmortem 原則整理成 on-call 初判與安全 postmortem 模板。
 - [Kubernetes release intelligence（近一年，2025-04 到 2026-04）](kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理近一年 Kubernetes release 對全球級資料中心 SRE / platform engineering 的影響。
 - [大型地端平台工程師技術地圖](large-scale-platform-engineer-map.md)：把大型地端運算平台所需能力拆成可學、可追、可驗證的領域。
 - [Kubernetes version watch](kubernetes-version-watch.md)：追蹤 Kubernetes upstream version、support window、供應商支援矩陣，以及公開大型平台/K8s 訊號。

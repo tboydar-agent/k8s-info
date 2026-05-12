@@ -274,11 +274,39 @@ Source note: `sources/2026-05-03.md`
 
 ### P2 — SRE / Day2 operations
 
-- [ ] 建立 incident response template
-- [ ] 建立 blameless postmortem template
+- [x] 建立 observability / incident response 導讀與 incident note / postmortem template：見 `docs/kubernetes-observability-incident-response.md`
+- [x] 建立 blameless postmortem template：見 `docs/kubernetes-observability-incident-response.md`
 - [ ] 建立 capacity planning 研究筆記
 - [ ] 建立 performance tuning checklist
 - [ ] 建立 7x24 on-call readiness checklist
+
+### 2026-05-12 deep-research contribution
+
+```text
+Topic:
+  Kubernetes observability / incident response
+
+Docs:
+  - added docs/kubernetes-observability-incident-response.md
+  - mapped Kubernetes Events, logs, resource metrics, probes, and object status into a low-risk on-call triage flow
+  - added a public-safe incident note / blameless postmortem template
+  - updated README.md, docs/README.md, sources/2026-05-12.md, and TRACKING.md
+
+Sources:
+  - Kubernetes Debug Services
+  - Kubernetes Resource metrics pipeline
+  - Kubernetes Logging Architecture
+  - Kubernetes Event API reference
+  - Kubernetes liveness/readiness/startup probes
+  - Kubernetes Nodes
+  - Google SRE Book: Managing Incidents
+  - Google SRE Book: Postmortem Culture
+
+Privacy:
+  - no specific-company internal Kubernetes version, topology, hostname, IP, ticket, private dashboard, chat message, credential, personal contact, or non-public incident detail recorded
+```
+
+Source note: `sources/2026-05-12.md`
 
 ### P3 — AI-assisted platform operations
 
