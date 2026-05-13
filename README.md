@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-13` 新增 [Multi-cluster / multi-region Kubernetes architecture 導讀](docs/multi-cluster-architecture.md)：整理 cluster-local baseline、MCS `ServiceExport` / `ServiceImport`、provider-managed fleet/global ingress 與 on-prem 設計檢查表。
 - ★★★★☆ `2026-05-12` 新增 [Kubernetes observability / incident response 導讀](docs/kubernetes-observability-incident-response.md)：把 Events、logs、metrics、probes 與 SRE incident/postmortem 原則整理成 on-call 初判與安全 postmortem 模板。
 - ★★★★☆ `2026-05-11` 新增 [BGP / Kubernetes LoadBalancer 導讀](docs/bgp-kubernetes-load-balancing.md)：整理 bare-metal Service LoadBalancer、L2 announcement、BGP advertisement、MetalLB / Cilium / Calico 選型與故障初判。
 - ★★★★★ `2026-05-09` 新增 [Kubernetes 版本偏差實務案例研究](docs/kubernetes-version-skew-on-prem-case-studies.md)：大型地端平台常見的版本偏差陷阱與解決方案，包含 CNI/CSI 相容性、HA cluster 管理、多 node pool 升級等實務案例。
@@ -83,6 +84,7 @@ k8s-info/
 │   ├── csi-storage-failure-modes.md
 │   ├── bgp-kubernetes-load-balancing.md
 │   ├── kubernetes-observability-incident-response.md
+│   ├── multi-cluster-architecture.md
 │   ├── kubernetes-provider-support-matrix.md
 │   ├── kubernetes-release-intelligence-2025-2026.md
 │   └── kubernetes-version-lifecycle-and-upgrade-strategy.md

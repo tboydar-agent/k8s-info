@@ -225,7 +225,32 @@ Source note: `sources/2026-05-02.md`
 - [x] 補 Linux node pressure debugging playbook：見 `docs/node-pressure-debugging.md`
 - [x] 補 BGP + Kubernetes load balancing 導讀：見 `docs/bgp-kubernetes-load-balancing.md`
 - [x] 補 CSI / storage failure mode 導讀：見 `docs/csi-storage-failure-modes.md`
-- [ ] 補 multi-cluster / multi-region 架構筆記
+- [x] 補 multi-cluster / multi-region 架構筆記：見 `docs/multi-cluster-architecture.md`
+
+### 2026-05-13 deep-research contribution
+
+```text
+Topic:
+  Multi-cluster / multi-region Kubernetes architecture
+
+Docs:
+  - added docs/multi-cluster-architecture.md
+  - mapped Kubernetes cluster-local primitives to multi-cluster design boundaries
+  - covered SIG Multicluster MCS ServiceExport / ServiceImport, provider-managed fleet/global ingress patterns, hub-and-spoke inventory, and on-prem safety checks
+  - added incident triage flow and explicit non-applicability boundaries for internal topologies
+
+Sources:
+  - Kubernetes Cluster Networking / Service / Managing Workloads docs
+  - SIG Multicluster Multicluster Services API, ServiceExport, ServiceImport docs
+  - GKE Multi-cluster Services and Multi Cluster Ingress docs
+  - Azure Kubernetes Fleet Manager concepts
+  - Open Cluster Management ManagedCluster concept
+
+Privacy:
+  - no specific-company internal cluster topology, CIDR, hostname, IP, router config, credentials, personal contact, or non-public data recorded
+```
+
+Source note: `sources/2026-05-13.md`
 
 ### 2026-05-04 deep-research contribution
 
