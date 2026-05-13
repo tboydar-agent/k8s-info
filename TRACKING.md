@@ -143,6 +143,34 @@ Privacy:
 
 Source note: `sources/2026-05-12.md`
 
+### 2026-05-13 daily material update
+
+```text
+Upstream / patch train:
+  - Kubernetes GitHub releases now show the 2026-05 patch train as published stable tags:
+      v1.36.1 / v1.35.5 / v1.34.8 / v1.33.12
+  - Raw upstream changelogs cross-check the same patch entries.
+  - v1.36 remains newest upstream minor baseline.
+  - Official release landing page still describes maintained branches as 1.36 / 1.35 / 1.34.
+  - Official patch-release page did not surface explicit new patch rows in the fetched HTML snapshot; keep watching for row-level cut/date details.
+
+Provider / vendor:
+  - EKS remains standard 1.35 / 1.34 / 1.33; extended 1.32 / 1.31 / 1.30.
+  - AKS 1.36 lifecycle remains preview May 2026, GA Jun 2026, standard EOL Jun 2027, platform support until 1.40 GA.
+  - GKE release schedule page last-updated marker advanced to 2026-05-12 UTC.
+  - SUSE/Rancher support matrix remained reachable; no new exact certification claim added.
+
+Docs:
+  - added sources/2026-05-13.md
+  - updated docs/kubernetes-version-watch.md
+  - updated TRACKING.md
+
+Privacy:
+  - No specific-company internal Kubernetes version, architecture, contact, private link, token, or non-public data recorded.
+```
+
+Source note: `sources/2026-05-13.md`
+
 ### 2026-05-03 daily material update
 
 ```text
