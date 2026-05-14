@@ -171,6 +171,37 @@ Privacy:
 
 Source note: `sources/2026-05-13.md`
 
+### 2026-05-14 daily material update
+
+```text
+Upstream / patch train:
+  - Kubernetes official patch-release page now exposes May 2026 patch train rows:
+      v1.36.1 / v1.35.5 / v1.34.8 / v1.33.12
+  - Official row details observed:
+      1.36.1  cherry-pick deadline 2026-05-08, target date 2026-05-13
+      1.35.5  cherry-pick deadline 2026-05-08, target date 2026-05-12
+      1.34.8  cherry-pick deadline 2026-05-08, target date 2026-05-12
+      1.33.12 cherry-pick deadline 2026-05-08, target date 2026-05-12
+  - Next official active-branch watch targets are now 1.36.2 / 1.35.6 / 1.34.9.
+  - v1.36 remains newest upstream minor baseline; v1.33 remains near-EOL maintenance line with EOL 2026-06-28.
+
+Provider / vendor:
+  - EKS page remains reachable; no EKS 1.36 availability claim recorded.
+  - AKS 1.36 lifecycle remains preview May 2026, GA Jun 2026, standard EOL Jun 2027, platform support until 1.40 GA.
+  - GKE release schedule page last-updated marker advanced to 2026-05-13 UTC.
+  - SUSE/Rancher support matrix remained reachable; no new exact certification claim added.
+
+Docs:
+  - added sources/2026-05-14.md
+  - updated docs/kubernetes-version-watch.md
+  - updated TRACKING.md
+
+Privacy:
+  - No specific-company internal Kubernetes version, architecture, contact, private link, token, or non-public data recorded.
+```
+
+Source note: `sources/2026-05-14.md`
+
 ### 2026-05-03 daily material update
 
 ```text
