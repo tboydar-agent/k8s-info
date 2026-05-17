@@ -394,10 +394,36 @@ Source note: `sources/2026-05-12.md`
 
 ### P3 — AI-assisted platform operations
 
-- [ ] 建立 Claude / Copilot / Codex 用於 IaC review 的安全流程
-- [ ] 建立 AI agent runbook review pattern
+- [x] 建立 Claude / Copilot / Codex 用於 IaC review 的安全流程：見 `docs/ai-assisted-sre-workflows.md`
+- [x] 建立 AI agent runbook review pattern：見 `docs/ai-assisted-sre-workflows.md`
 - [ ] 建立 SRE skill pack 草案
 - [ ] 建立 AI 輔助 incident summary / postmortem flow
+
+### 2026-05-17 deep-research contribution
+
+```text
+Topic:
+  AI-assisted SRE / platform engineering workflow safety
+
+Docs:
+  - added docs/ai-assisted-sre-workflows.md
+  - mapped Claude Code / GitHub Copilot coding agent / OpenAI Codex into a bounded SRE workflow model
+  - separated research, IaC review, sanitized incident summary, runbook tabletop, and production mutation layers
+  - updated README.md, docs/README.md, sources/2026-05-17.md, and TRACKING.md
+
+Sources:
+  - GitHub Docs: GitHub Copilot cloud agent
+  - Anthropic Docs: Claude Code Security
+  - OpenAI Developers: Codex
+  - Kubernetes Troubleshooting Clusters
+  - Kubernetes Debug Running Pods
+  - Kubernetes Good practices for Secrets
+
+Privacy:
+  - no specific-company internal Kubernetes version, topology, hostname, IP, ticket, private dashboard, chat message, credential, personal contact, or non-public incident detail recorded
+```
+
+Source note: `sources/2026-05-17.md`
 
 ---
 

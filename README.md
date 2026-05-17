@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-17` 新增 [AI-assisted SRE / platform engineering workflow 安全導讀](docs/ai-assisted-sre-workflows.md)：整理 Claude Code、GitHub Copilot coding agent、OpenAI Codex 類工具在 Kubernetes SRE 的低風險使用邊界。
 - ★★★★☆ `2026-05-13` 新增 [Multi-cluster / multi-region Kubernetes architecture 導讀](docs/multi-cluster-architecture.md)：整理 cluster-local baseline、MCS `ServiceExport` / `ServiceImport`、provider-managed fleet/global ingress 與 on-prem 設計檢查表。
 - ★★★★☆ `2026-05-12` 新增 [Kubernetes observability / incident response 導讀](docs/kubernetes-observability-incident-response.md)：把 Events、logs、metrics、probes 與 SRE incident/postmortem 原則整理成 on-call 初判與安全 postmortem 模板。
 - ★★★★☆ `2026-05-11` 新增 [BGP / Kubernetes LoadBalancer 導讀](docs/bgp-kubernetes-load-balancing.md)：整理 bare-metal Service LoadBalancer、L2 announcement、BGP advertisement、MetalLB / Cilium / Calico 選型與故障初判。
@@ -85,6 +86,7 @@ k8s-info/
 │   ├── bgp-kubernetes-load-balancing.md
 │   ├── kubernetes-observability-incident-response.md
 │   ├── multi-cluster-architecture.md
+│   ├── ai-assisted-sre-workflows.md
 │   ├── kubernetes-provider-support-matrix.md
 │   ├── kubernetes-release-intelligence-2025-2026.md
 │   └── kubernetes-version-lifecycle-and-upgrade-strategy.md

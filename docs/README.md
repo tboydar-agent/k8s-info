@@ -10,6 +10,7 @@ Kubernetes / Platform Engineering 技術文件（zh-TW）。
 - [BGP / Kubernetes LoadBalancer 導讀](bgp-kubernetes-load-balancing.md)：整理 bare-metal `Service type=LoadBalancer`、L2 announcement、BGP advertisement、MetalLB / Cilium / Calico 選型與 Day-2 檢查。
 - [Kubernetes observability / incident response 導讀](kubernetes-observability-incident-response.md)：把 Events、logs、metrics、probes 與 SRE incident/postmortem 原則整理成 on-call 初判與安全 postmortem 模板。
 - [Multi-cluster / multi-region Kubernetes architecture 導讀](multi-cluster-architecture.md)：整理 cluster-local baseline、MCS `ServiceExport` / `ServiceImport`、provider-managed fleet/global ingress、hub-and-spoke inventory 與 on-prem 檢查表。
+- [AI-assisted SRE / platform engineering workflow 安全導讀](ai-assisted-sre-workflows.md)：把 Claude Code、GitHub Copilot coding agent、OpenAI Codex 類工具放進研究、IaC review、sanitized incident summary、runbook tabletop 的安全流程。
 - [Kubernetes release intelligence（近一年，2025-04 到 2026-04）](kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理近一年 Kubernetes release 對全球級資料中心 SRE / platform engineering 的影響。
 - [大型地端平台工程師技術地圖](large-scale-platform-engineer-map.md)：把大型地端運算平台所需能力拆成可學、可追、可驗證的領域。
 - [Kubernetes version watch](kubernetes-version-watch.md)：追蹤 Kubernetes upstream version、support window、供應商支援矩陣，以及公開大型平台/K8s 訊號。
