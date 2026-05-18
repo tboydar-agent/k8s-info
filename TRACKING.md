@@ -402,9 +402,36 @@ Source note: `sources/2026-05-03.md`
 
 - [x] 建立 observability / incident response 導讀與 incident note / postmortem template：見 `docs/kubernetes-observability-incident-response.md`
 - [x] 建立 blameless postmortem template：見 `docs/kubernetes-observability-incident-response.md`
-- [ ] 建立 capacity planning 研究筆記
-- [ ] 建立 performance tuning checklist
+- [x] 建立 capacity planning / performance tuning 研究筆記：見 `docs/kubernetes-capacity-planning-performance-tuning.md`
 - [ ] 建立 7x24 on-call readiness checklist
+
+### 2026-05-18 deep-research contribution
+
+```text
+Topic:
+  Kubernetes capacity planning / performance tuning
+
+Docs:
+  - added docs/kubernetes-capacity-planning-performance-tuning.md
+  - mapped requests/limits, node allocatable, ResourceQuota, LimitRange, HPA, node pressure, large-cluster considerations, and system component metrics into a low-risk capacity planning flow
+  - added on-prem capacity checklist, performance-tuning sequence, failure-mode reserve questions, and explicit non-applicability boundaries for internal environments
+  - updated README.md, docs/README.md, sources/2026-05-18.md, and TRACKING.md
+
+Sources:
+  - Kubernetes Resource Management for Pods and Containers
+  - Kubernetes Reserve Compute Resources for System Daemons
+  - Kubernetes Resource Quotas and Limit Ranges
+  - Kubernetes Horizontal Pod Autoscaling
+  - Kubernetes Node-pressure Eviction
+  - Kubernetes Considerations for large clusters
+  - Kubernetes Metrics For Kubernetes System Components
+  - Google SRE Book: Handling Overload and Addressing Cascading Failures
+
+Privacy:
+  - no specific-company internal cluster size, node shape, SLO, dashboard, cost, topology, hostname, IP, ticket, credential, personal contact, or non-public incident detail recorded
+```
+
+Source note: `sources/2026-05-18.md`
 
 ### 2026-05-12 deep-research contribution
 
