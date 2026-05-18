@@ -202,6 +202,48 @@ Privacy:
 
 Source note: `sources/2026-05-14.md`
 
+### 2026-05-18 daily material update
+
+```text
+Upstream / patch train:
+  - Kubernetes official release pages and GitHub releases remain aligned on
+    the May patch train:
+      v1.36.1 / v1.35.5 / v1.34.8 / v1.33.12
+  - Official patch-release page continues to expose next active-branch watch
+    targets:
+      1.36.2 / 1.35.6 / 1.34.9
+  - v1.36 remains newest upstream minor baseline; v1.33 remains near-EOL
+    maintenance line with official EOL 2026-06-28.
+
+Provider / vendor:
+  - GKE release schedule page last-updated marker advanced to 2026-05-16 UTC;
+    1.36 schedule row remains visible with rapid availability 2026-04-28 and
+    later provider milestones expressed as 2026-06 / 2026-Q3 / 2026-Q4 /
+    2027-Q4 / 2028-Q2 planning windows.
+  - AKS 1.36 lifecycle remains preview May 2026, GA Jun 2026,
+    standard EOL Jun 2027, platform support until 1.40 GA.
+  - EKS page remained reachable; no EKS 1.36 availability claim recorded.
+  - SUSE/Rancher and Red Hat OpenShift public pages remained reachable; no new
+    exact Rancher certification or OpenShift Kubernetes-version mapping claim
+    added.
+
+Large-scale platform signal:
+  - CNCF public surfaces continue to show platform-engineering direction around
+    GitOps-to-intent developer experience and KubeCon + CloudNativeCon Japan
+    2026 schedule announcement.
+
+Docs:
+  - added sources/2026-05-18.md
+  - updated docs/kubernetes-version-watch.md
+  - updated TRACKING.md
+
+Privacy:
+  - No specific-company internal Kubernetes version, architecture, contact,
+    private link, token, or non-public data recorded.
+```
+
+Source note: `sources/2026-05-18.md`
+
 ### 2026-05-03 daily material update
 
 ```text
