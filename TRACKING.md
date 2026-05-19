@@ -444,7 +444,36 @@ Source note: `sources/2026-05-03.md`
 - [x] 建立 observability / incident response 導讀與 incident note / postmortem template：見 `docs/kubernetes-observability-incident-response.md`
 - [x] 建立 blameless postmortem template：見 `docs/kubernetes-observability-incident-response.md`
 - [x] 建立 capacity planning / performance tuning 研究筆記：見 `docs/kubernetes-capacity-planning-performance-tuning.md`
+- [x] 建立 etcd / API server scalability 與 controller/informer internals 導讀：見 `docs/etcd-api-server-scalability.md`
 - [ ] 建立 7x24 on-call readiness checklist
+
+### 2026-05-19 deep-research contribution
+
+```text
+Topic:
+  etcd / API server scalability and controller/informer internals
+
+Docs:
+  - added docs/etcd-api-server-scalability.md
+  - mapped Kubernetes large-cluster limits, kube-apiserver horizontal scaling, etcd disk/latency requirements, API Priority and Fairness, and controller watch/reconcile behavior into an operator-facing guide
+  - added on-call triage flow, upgrade/capacity checklist, Event-etcd caveat, and explicit non-applicability boundaries for internal environments
+  - updated README.md, docs/README.md, sources/2026-05-19.md, and TRACKING.md
+
+Sources:
+  - Kubernetes Considerations for large clusters
+  - Kubernetes Cluster Architecture
+  - Kubernetes Controllers
+  - Kubernetes API Priority and Fairness
+  - Kubernetes Metrics Reference
+  - Kubernetes Operating etcd clusters for Kubernetes
+  - etcd Hardware recommendations
+  - etcd Performance
+
+Privacy:
+  - no specific-company internal cluster size, API QPS, etcd latency, topology, hostname, IP, dashboard, ticket, credential, personal contact, or non-public incident detail recorded
+```
+
+Source note: `sources/2026-05-19.md`
 
 ### 2026-05-18 deep-research contribution
 

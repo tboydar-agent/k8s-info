@@ -12,6 +12,7 @@ Kubernetes / Platform Engineering 技術文件（zh-TW）。
 - [Multi-cluster / multi-region Kubernetes architecture 導讀](multi-cluster-architecture.md)：整理 cluster-local baseline、MCS `ServiceExport` / `ServiceImport`、provider-managed fleet/global ingress、hub-and-spoke inventory 與 on-prem 檢查表。
 - [AI-assisted SRE / platform engineering workflow 安全導讀](ai-assisted-sre-workflows.md)：把 Claude Code、GitHub Copilot coding agent、OpenAI Codex 類工具放進研究、IaC review、sanitized incident summary、runbook tabletop 的安全流程。
 - [Kubernetes capacity planning / performance tuning 導讀](kubernetes-capacity-planning-performance-tuning.md)：把 requests/limits、node allocatable、quota/LimitRange、HPA、node pressure 與 control-plane metrics 整理成低風險容量規劃流程。
+- [etcd / API server scalability 與 controller/informer internals 導讀](etcd-api-server-scalability.md)：把 large-cluster 上限、etcd disk/latency、APF、watch fan-out 與 controller workqueue 整理成 control-plane 容量與 on-call 初判流程。
 - [Kubernetes release intelligence（近一年，2025-04 到 2026-04）](kubernetes-release-intelligence-2025-2026.md)：用 1–5 顆星整理近一年 Kubernetes release 對全球級資料中心 SRE / platform engineering 的影響。
 - [大型地端平台工程師技術地圖](large-scale-platform-engineer-map.md)：把大型地端運算平台所需能力拆成可學、可追、可驗證的領域。
 - [Kubernetes version watch](kubernetes-version-watch.md)：追蹤 Kubernetes upstream version、support window、供應商支援矩陣，以及公開大型平台/K8s 訊號。

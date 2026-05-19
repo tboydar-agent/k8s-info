@@ -11,6 +11,7 @@
 
 ## 最新更新重點
 
+- ★★★★☆ `2026-05-19` 新增 [etcd / API server scalability 與 controller/informer internals 導讀](docs/etcd-api-server-scalability.md)：把 large-cluster 上限、etcd disk/latency、APF、watch fan-out 與 controller workqueue 整理成 control-plane 容量與 on-call 初判流程。
 - ★★★★☆ `2026-05-18` 新增 [Kubernetes capacity planning / performance tuning 導讀](docs/kubernetes-capacity-planning-performance-tuning.md)：把 requests/limits、node allocatable、quota/LimitRange、HPA、node pressure 與 control-plane metrics 整理成低風險容量規劃流程。
 - ★★★★☆ `2026-05-17` 新增 [AI-assisted SRE / platform engineering workflow 安全導讀](docs/ai-assisted-sre-workflows.md)：整理 Claude Code、GitHub Copilot coding agent、OpenAI Codex 類工具在 Kubernetes SRE 的低風險使用邊界。
 - ★★★★☆ `2026-05-13` 新增 [Multi-cluster / multi-region Kubernetes architecture 導讀](docs/multi-cluster-architecture.md)：整理 cluster-local baseline、MCS `ServiceExport` / `ServiceImport`、provider-managed fleet/global ingress 與 on-prem 設計檢查表。
@@ -89,6 +90,7 @@ k8s-info/
 │   ├── multi-cluster-architecture.md
 │   ├── ai-assisted-sre-workflows.md
 │   ├── kubernetes-capacity-planning-performance-tuning.md
+│   ├── etcd-api-server-scalability.md
 │   ├── kubernetes-provider-support-matrix.md
 │   ├── kubernetes-release-intelligence-2025-2026.md
 │   └── kubernetes-version-lifecycle-and-upgrade-strategy.md
